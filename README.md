@@ -6,4 +6,4 @@ I started the task by conducting a simple EDA to learn some facts about the data
 2- the data has 13 unique labels with the label "x" representing about 86% of the total labels.<br>
 3- there are no missing values in the dataset.<br>
 
-The main thing that I'm concerned with for this task is actually the embedding, training a nice word embedding model takes a lot of data and computational power, I'm going to go initially with TF-IDF until I figure out a better solution.
+The main thing that I'm concerned with for this task is the embeddings, a good word embedding model can help a lot with getting a good NER, but training a nice word embedding model takes a lot of data and computational power, I'm going to go initially with TF-IDF until I figure out a better solution.
