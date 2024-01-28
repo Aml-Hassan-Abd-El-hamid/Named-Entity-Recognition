@@ -11,3 +11,8 @@ The main thing that I'm concerned with for this task is the embeddings, a good w
 I actually found a really nice solution for the embedding problem, thanks to **Pytorch** -I really love that framework :)-, Pytorch has a layer that's called `nn.Embedding` which is optimized as part of the training task. Consequently, after training, I should have embeddings that are specific to my task rather than generic embeddings that generate a more general representation which can be more or less useful but you know, compared to TF-IDF or the random mapping that I tried first :), I think that this would be a better solution -I'm going to try and compare them at the end in some nice table-, you can look at the whole discussion about `nn.Embedding` and how does it work [here](https://discuss.pytorch.org/t/how-does-nn-embedding-work/88518).
 
 I take it back, actually, the hardest thing isn't finding the right word representation, the hardest thing is the fact that my whole city now has a wi-fi issue!
+
+
+## Nice Tutriols:
+1- [The Secret to Improved NLP: An In-Depth Look at the nn.Embedding Layer in PyTorch](http://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/the-secret-to-improved-nlp-an-in-depth-look-at-the-nn-embedding-layer-in-pytorch-6e901e193e16&strip=0&vwsrc=1&referer=medium-parser)
+2- [Essentials of Deep Learning: Introduction to Long Short Term Memory](https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/)
