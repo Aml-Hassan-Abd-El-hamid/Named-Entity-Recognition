@@ -12,6 +12,18 @@ I actually found a really nice solution for the embedding problem, thanks to **P
 
 I take it back, actually, the hardest thing isn't finding the right word representation, the hardest thing is the fact that my whole city now has a wi-fi issue!
 
+**What were the main challenges you faced, and how did you address them given the limited time?**<br>
+2 main things:
+1- finding the right text representation without the usage of regular pre-trained models like `Word2Vec`:<br>
+The usage of `nn.Embedding` layer gave a good text representation that's trainable and saved me the time of training a model for just a word embedding task.<br>
+2- the WiFi went down for days due to a network issue in my area:<br>
+I have trained the model locally and set up the whole environment locally using the phone data.
+
+**What is the best approach to handle a much larger number of entities like 100?**<br>
+1- I'd use pre-trained word embeddings like Word2Vec, GloVe, or FastText to represent words in your dataset, I might fine-tune the task as I go.<br>
+2- I'd try to reduce the number of classes using one of the methods:<br>
+Group similar classes together into bins. Predict at the bin level.<br>
+Use hierarchical modelling. Create a series of nested groups.<br>
 
 ## Nice Tutriols:
 1- [The Secret to Improved NLP: An In-Depth Look at the nn.Embedding Layer in PyTorch](http://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/the-secret-to-improved-nlp-an-in-depth-look-at-the-nn-embedding-layer-in-pytorch-6e901e193e16&strip=0&vwsrc=1&referer=medium-parser)<br>
