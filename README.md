@@ -36,4 +36,4 @@ Utilize established models like Word2Vec, GloVe, or FastText for word representa
 1- [The Secret to Improved NLP: An In-Depth Look at the nn.Embedding Layer in PyTorch](http://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/the-secret-to-improved-nlp-an-in-depth-look-at-the-nn-embedding-layer-in-pytorch-6e901e193e16&strip=0&vwsrc=1&referer=medium-parser)<br>
 2- [Essentials of Deep Learning: Introduction to Long Short Term Memory](https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/)<br>
 3- [Sequence Models and Long Short-Term Memory Networks](https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html)<br>
-4- [Named Entity Recognition Tagging](https://cs230.stanford.edu/blog/namedentity/)<br>
+4- [Named Entity Recognition Tagging by Andrew Ng](https://cs230.stanford.edu/blog/namedentity/)<br>
